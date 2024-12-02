@@ -2,9 +2,9 @@
 
 namespace AppDeployer;
 
+use AppDeployer\Commands\AppDeployerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AppDeployer\Commands\AppDeployerCommand;
 
 class AppDeployerServiceProvider extends PackageServiceProvider
 {
