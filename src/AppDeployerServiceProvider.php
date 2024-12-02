@@ -2,7 +2,7 @@
 
 namespace AppDeployer;
 
-use AppDeployer\Commands\AppDeployerCommand;
+use AppDeployer\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -17,6 +17,6 @@ class AppDeployerServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('app_deployer')
-            ->hasCommand(AppDeployerCommand::class);
+            ->hasCommand(InstallCommand::class);
     }
 }
