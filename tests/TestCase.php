@@ -2,9 +2,9 @@
 
 namespace AppDeployer\Tests;
 
+use AppDeployer\AppDeployerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AppDeployer\AppDeployerServiceProvider;
 
 class TestCase extends Orchestra
 {
